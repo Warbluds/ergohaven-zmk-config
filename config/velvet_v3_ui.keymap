@@ -97,9 +97,9 @@
 
         Gamer {
             bindings = <
-&trans  &kp T  &kp Q   &kp W   &kp E   &kp R                    &kp N1  &kp N2    &kp N3    &kp N4     &kp N5  &trans
-&trans  &kp G  &kp A   &kp S   &kp D   &kp F                    &trans  &mkp MB1  &mkp MB2  &mkp MCLK  &trans  &trans
-&trans  &kp B  &kp Z   &kp X   &kp C   &kp V                    &trans  &trans    &trans    &trans     &trans  &trans
+&trans  &kp T  &kp Q   &kp W   &kp E   &kp R                    &kp N1  &kp N2    &kp N3    &kp N4          &kp N5  &trans
+&trans  &kp G  &kp A   &kp S   &kp D   &kp F                    &trans  &mkp MB1  &mkp MB2  &mkp MCLK       &trans  &trans
+&trans  &kp B  &kp Z   &kp X   &kp C   &kp V                    &trans  &trans    &trans    &kp LEFT_SHIFT  &trans  &trans
                &trans  &trans  &trans  &mo 3  &trans    &trans  &trans  &trans    &trans    &trans
             >;
 
