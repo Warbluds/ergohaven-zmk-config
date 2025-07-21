@@ -70,10 +70,10 @@
 
         Mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans    &trans    &trans  &trans
-&trans  &mo 5   &none   &none   &none   &mo 6                     &mo 6   &mkp MB1  &mkp MB2  &mkp MB3  &mo 5   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans    &trans    &trans  &trans
-                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans
+&trans  &trans  &trans    &trans    &trans    &trans                    &trans  &trans    &trans    &trans    &trans  &trans
+&trans  &mo 5   &mkp MB3  &mkp MB2  &mkp MB1  &mo 6                     &mo 6   &mkp MB1  &mkp MB2  &mkp MB3  &mo 5   &trans
+&trans  &trans  &trans    &trans    &trans    &trans                    &trans  &trans    &trans    &trans    &trans  &trans
+                &trans    &trans    &trans    &trans  &trans    &trans  &trans  &trans    &trans    &trans
             >;
         };
 
@@ -97,10 +97,10 @@
 
         Gamer {
             bindings = <
-&trans  &kp T  &kp Q   &kp W   &kp E   &kp R                    &trans  &trans     &trans     &trans     &trans  &trans
-&trans  &kp G  &kp A   &kp S   &kp D   &kp F                    &trans  &mkp RCLK  &mkp LCLK  &mkp MCLK  &trans  &trans
-&trans  &kp B  &kp Z   &kp X   &kp C   &kp V                    &trans  &trans     &trans     &trans     &trans  &trans
-               &trans  &trans  &trans  &mo 3  &trans    &trans  &trans  &trans     &trans     &trans
+&trans  &kp T  &kp Q   &kp W   &kp E   &kp R                    &kp N1  &kp N2    &kp N3    &kp N4     &kp N5  &trans
+&trans  &kp G  &kp A   &kp S   &kp D   &kp F                    &trans  &mkp MB1  &mkp MB2  &mkp MCLK  &trans  &trans
+&trans  &kp B  &kp Z   &kp X   &kp C   &kp V                    &trans  &trans    &trans    &trans     &trans  &trans
+               &trans  &trans  &trans  &mo 3  &trans    &trans  &trans  &trans    &trans    &trans
             >;
 
             display-name = "User0";
